@@ -13,4 +13,29 @@ Repositorio Oficial do projeto [#SDS1](https://github.com/devsuperior/sds1).
 2. [IN] O operador informa,opcionalmento,uma data inicial e data final para filtrar os dados.
 3. [OUT] O sistema informa a listagem atualizada.
 
+## 📚 Modelo Conceitual:
+
+<div align="center">
+  <h4>Diagrama de classe uml</h4>
+  <img src="https://github.com/Romariorfr/Big-Game-Survey/blob/master/backend/assets/uml%20sds1.png" alt="Movies list page on desktop"/>
+</div>
+
+
+
+## :books: Tecnologias utilizadas
+### Back end
+- Java
+- Spring Boot
+- Spring data JPA
+- Spring Web
+- H2 Database
+- PostgreSQL
+- Maven
+- Postman
+
+## :astronaut: Author 
+
+Romário Ferreira de Rezende
+
+https://www.linkedin.com/in/romarioferreiradeveloper
 
