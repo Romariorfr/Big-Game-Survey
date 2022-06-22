@@ -13,22 +13,21 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="tb_record")
+@Table(name = "tb_record")
 public class Record implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
+	
 	private String name;
 	private Integer age;
 	private Instant moment;
-	
+
 	@ManyToOne
 	@JoinColumn(name = "game_id")
 	private Game game;
-	
-	
 
 	public Record() {
 
@@ -71,6 +70,14 @@ public class Record implements Serializable {
 
 	public void setMoment(Instant moment) {
 		this.moment = moment;
+	}
+
+	public Game getGame() {
+		return game;
+	}
+
+	public void setGame(Game game) {
+		this.game = game;
 	}
 
 	@Override
