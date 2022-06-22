@@ -4,9 +4,9 @@
   <H4>Olá, seja bem vindo ao meu projeto!</H4>
   
   
-  <a href="https://dsmovie-romariof.netlify">Link do site</a><br>
-  <a href="https://sds1-romario.herokuapp.com/">Link da API</a><br>
-  <a href="https://romario-dsmovie.herokuapp.com/swagger-ui.html">Documentação</a>
+  <a href="https://sds1-romario.netlify.com">Link do site</a><br>
+  <a href="https://sds1-romario.herokuapp.com">Link da API</a><br>
+  <a href="https://sds1-romario.herokuapp.com/swagger-ui.html">Documentação</a>
 
   
 </div>
