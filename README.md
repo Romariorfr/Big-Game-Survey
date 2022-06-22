@@ -1,7 +1,15 @@
-# Big-Game-Survey
-Projeto SDS1
+<div align="center">
+  <H1><img src="https://github.com/Romariorfr/Big-Game-Survey/blob/master/backend/assets/logo.png"/> Big Game Survey</H1>
+  <img src="https://github.com/Romariorfr/Big-Game-Survey/blob/master/backend/assets/gamer.png"/> 
+  <H4>Olá, seja bem vindo ao meu projeto!</H4>
+</div>
 
-Repositorio Oficial do projeto [#SDS1](https://github.com/devsuperior/sds1). 
+---
+
+:point_right: Repositorio de apoio do projeto [#SDS1](https://github.com/devsuperior/sds1). 
+
+---
+
 
 ## Caso de uso do sistema
 - [X] CADASTRAR REGISTRO DA PESQUISA
@@ -17,7 +25,7 @@ Repositorio Oficial do projeto [#SDS1](https://github.com/devsuperior/sds1).
 
 <div align="center">
   <h4>Diagrama de classe uml</h4>
-  <img src="https://github.com/Romariorfr/Big-Game-Survey/blob/master/backend/assets/uml%20sds1.png" alt="Movies list page on desktop"/>
+  <img src="https://github.com/Romariorfr/Big-Game-Survey/blob/master/backend/assets/uml%20sds1.png" alt="uml project"/>
 </div>
 
 
