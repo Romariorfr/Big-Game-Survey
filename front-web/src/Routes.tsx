@@ -1,22 +1,23 @@
 
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import ReactDOM from "react-dom/client";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import Records from "./pages/Records";
 
-const Routes = () => (
+const Rotas = () => (
   <BrowserRouter>
     <Header />
-    <Switch>
-      <Route path="/" exact>
-        <Home />
-      </Route>
-      <Route path="/records">
-        <Records/>
-      </Route>
-    </Switch>
+    <Routes>
+      <Route path="/" element={<Home/>} />
+      
+    </Routes>
   </BrowserRouter>
 );
 
-export default Routes;
+export default Rotas;
