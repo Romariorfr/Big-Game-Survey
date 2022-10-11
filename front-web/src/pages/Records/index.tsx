@@ -4,7 +4,6 @@ import axios from "axios";
 import { RecordsResponse } from "./types";
 import { formtDate } from "./helpers";
 import Pagination from "./Pagination";
-import { Link } from "react-router-dom";
 import Filters from "../../components/Filters";
 
 const BASE_URL = "http://localhost:8080";
@@ -44,7 +43,7 @@ const Records = () => {
               <td>{formtDate(record.moment)}</td>
               <td>{record.name}</td>
               <td>{record.age}</td>
-              <td className="text-secondary">{record.gameplatform}</td>
+              <td className="text-secondary">{record.gamePlatform}</td>
               <td>{record.genreName}</td>
               <td className="text-primary">{record.gameTitle}</td>
             </tr>
