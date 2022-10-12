@@ -6,7 +6,4 @@ export type Game = {
   platform: Platform;
 };
 
-export type ChartItem = {
-    x: string;
-    y: number;
-}
+
