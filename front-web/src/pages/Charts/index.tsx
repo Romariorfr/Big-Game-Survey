@@ -22,29 +22,32 @@ type BarChartData = {
 
 const initialPieData = {
   labels: [],
-  series: [],
+  series: []
 };
 
 const BASE_URL = "http://localhost:8080";
 
 const Charts = () => {
-  const [barChartData, setBarChartData] = useState<BarChartData[]>([]);
+  const [barChartData, setBarData] = useState<BarChartData[]>([]);
   const [platformData, setPlatformData] = useState<PieChartData>(initialPieData);
   const [genderData, setgenderData] = useState<PieChartData>(initialPieData);
 
   useEffect(() => {
+    
     async function getData() {
       const recordsResponse = await axios.get(`${BASE_URL}/records`);
       const gamesResponse = await axios.get(`${BASE_URL}/games`);
 
       const barData = buildBarSeries(gamesResponse.data,recordsResponse.data.content);
-      setBarChartData(barData);
+      setBarData(barData);
+      console.log(barData);
 
       const platformChartData = getPlatformChartData(recordsResponse.data.content);
       setPlatformData(platformChartData);
 
       const genderChartData = getGenderChartData(recordsResponse.data.content);
       setgenderData(genderChartData);
+
     }
     getData();
   }, []);
