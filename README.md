@@ -7,11 +7,6 @@
   <H4>Olá, seja bem vindo ao meu projeto!</H4>
   
   
-  <a href="https://sds1-romario.netlify.com">Link do site</a><br>
-  <a href="https://sds1-romario.herokuapp.com">Link da API</a><br>
-  <a href="https://sds1-romario.herokuapp.com/swagger-ui.html">Documentação</a>
-  
-  
   Layout-web                  |        
 :-------------------------:|
 ![](https://github.com/Romariorfr/Big-Game-Survey/blob/master/backend/assets/web1.png)
